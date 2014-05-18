@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Frederick Jansen'
+tagline:          'Whatever interests me today'
+description:      'A place to gather my thoughts, ramblings and whatever interests me today. Things might get technical.'
+url:              http://prettyplease.me
+
+author:
+  name:           'Frederick Jansen'
+  url:            http://prettyplease.me
+
+paginate:         5
+
+# Custom vars
+#version:          2.0.0
+
+github:
+  repo:           https://github.com/frederickjansen
+
+linkedin:         http://be.linkedin.com/in/jansenfrederick
