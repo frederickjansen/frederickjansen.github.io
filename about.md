@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 <img src="/public/images/about-pic.jpg" alt="Frederick Jansen" title="Frederick Jansen">

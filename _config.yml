@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        "/blog/:title"
+permalink:        "/:title/"
 
 # Setup
 title:            'Frederick Jansen'
