@@ -7,8 +7,8 @@ permalink:        "/:title/"
 
 # Setup
 title:            'Frederick Jansen'
-tagline:          'Whatever interests me today'
-description:      'A place to gather my thoughts, ramblings and whatever interests me today. Things might get technical.'
+tagline:          'Things might get technical'
+description:      'Full-time developer, occasional designer.'
 url:              http://prettyplease.me
 
 author:
