@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Archive
-permalink: /archive/
+#layout: page
+#title: Archive
+#permalink: /archive/
 ---
 
 ## Blog Posts
