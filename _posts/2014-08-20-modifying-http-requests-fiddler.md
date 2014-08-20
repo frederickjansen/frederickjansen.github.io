@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intercepting and modifying HTTP requests using Fiddler
-excerpt: Using FiddlerScript to expand upon the capabilities of Fiddler
+excerpt: Using FiddlerScript to expand upon the capabilities of Fiddler.
 ---
 
 ## The bug
