@@ -22,4 +22,5 @@ if (oSession.url == "files.cdn.com/network/config.json") {
 }
 {% endhighlight %}
 
+To make this work with Fiddler, click on *Rules > Customize Rules* and add it to the *OnBeforeRequest* function.
 By redirecting the request for the config file to another domain with a modified file, I was able to test specific behaviour on a live server, without any of our users noticing. As it turned out, there was no bug on my end and some automated system had just published the wrong file.
