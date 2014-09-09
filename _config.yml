@@ -9,6 +9,7 @@ permalink:        "/:title/"
 title:            'Frederick Jansen'
 tagline:          'Things might get technical'
 description:      'Full-time developer, occasional designer.'
+meta:             'Full-time developer, occasional designer. Passionate about making things work.'
 url:              http://prettyplease.me
 
 author:
