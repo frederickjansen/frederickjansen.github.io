@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dependency injection using SwiftSuspenders (or Robotlegs)
+title: Dependency injection tutorial using SwiftSuspenders (or Robotlegs)
 excerpt: A look at the various ways of dependency injection in SwiftSuspenders.
 ---
 
