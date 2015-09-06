@@ -2,6 +2,7 @@
 layout: post
 title: Anonymous S3 file upload with full bucket owner control
 excerpt: With the right ACL policy and settings you can allow anonymous users to upload files to S3, without giving them any other permissions (such as delete), and handing over control to the bucket owner.
+description: With the right ACL policy and settings you can allow anonymous users to upload files to S3, without giving them any other permissions (such as delete), and handing over control to the bucket owner.
 ---
 
 I recently had to create a file upload service for anonymous users, where they had no permission to view their own files nor delete them. The S3 bucket owner on the other hand should have full rights. It took me a while to figure out how. [This tutorial](https://gist.github.com/jareware/d7a817a08e9eae51a7ea) for example accomplishes the first and second part, but it requires a special token for the bucket owner to do anything. This is in part because the bucket owner is not the owner of the file, but also because a Deny rule would target them without the token. This means that you need a special client (or curl) to send this token, and the owner is basically locked out of the [AWS S3 portal](https://console.aws.amazon.com/s3/home).  

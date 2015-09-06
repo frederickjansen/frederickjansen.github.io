@@ -2,6 +2,7 @@
 layout: post
 title: Dependency injection tutorial using SwiftSuspenders (or Robotlegs)
 excerpt: A look at the various ways of dependency injection in SwiftSuspenders.
+description: A look at the various ways of dependency injection in SwiftSuspenders.
 ---
 
 There are various ways to handle dependency injection with SwiftSuspenders, some of them new to 2.0, some that have been around since 1.x. When looking at the documentation however, it wasn't clear to me what the recommended way of working is, and what has been deprecated. The documentation of 2.0 is quite poor and [warns you](https://github.com/robotlegs/swiftsuspenders/blob/master/README.md) not to read the heavily outdated 1.x docs. Then you come across a [blog post](http://tillschneidereit.net/2011/02/05/swiftsuspenders-1-6-a-tale-of-small-changes-and-big-plans/) about upcoming changes in 2.0 and after trying to use one-way binding, you discover in a closed [Github ticket](https://github.com/tschneidereit/SwiftSuspenders/issues/44) that it wasn't implemented after all. So this post will be a short tutorial on the various ways you can handle dependency injection in SwiftSuspenders 2.1 (which is what Robotlegs 2.2 is using).

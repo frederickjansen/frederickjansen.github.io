@@ -2,6 +2,7 @@
 layout: post
 title: App Store or iTunes account without credit card
 excerpt: Though seemingly not possible at first glance, here's how to create an App Store or iTunes account without entering any credit card details.
+description: Though seemingly not possible at first glance, here's how to create an App Store or iTunes account without entering any credit card details.
 ---
 
 Apple recently made it much more cumbersome to create an iTunes account without entering your credit card information. It's still possible though, with a non-obvious workaround.
