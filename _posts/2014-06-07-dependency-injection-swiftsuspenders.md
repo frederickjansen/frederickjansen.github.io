@@ -101,7 +101,7 @@ package {
 
 ## Constructor without metadata
 
-This one is different from all other cases in that it using no metadata. You can simply inject into a constructor by instantiating a class using the Injector. In this case there's no named injection of course. I personally wouldn't use this, as figuring out where the data is coming from can get confusing.
+This one is different from all other cases in that it's using no metadata. You can simply inject into a constructor by instantiating a class using the Injector. In this case there's no named injection of course. I personally wouldn't use this, as figuring out where the data is coming from can get confusing.
 
 {% highlight as3 %}
 var injector:Injector = new Injector();
